@@ -1,0 +1,50 @@
+/* filepath: /Users/patrickscotland/Desktop/WebStarter/demo-rec-council-app/demo-rec-council-app/src/app/top-navigation/top-navigation.component.scss */
+.top-navigation {
+  /* Top Bar */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+
+  font-family: 'Roboto', sans-serif;
+
+  .icon {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+
+  p-menubar {
+    margin-left: auto; /* Pushes the menu items to the right */
+  }
+
+  // @media screen and (max-width: 960px) {
+  //   display: block;
+    
+  //   h1 {
+  //     display: none; /* Hide the title */
+  //   }
+
+  //   p-menubar {
+  //     margin-left: 0; /* Remove right-alignment of the menu items */
+  //   }
+  // }
+}
